@@ -39,7 +39,7 @@ Installation
   
   ```
   set system task-scheduler task updateBlacklist interval 1d
-  set system task-scheduler task updateBlacklist executable path /config/scripts/updateETBlocklist.sh
+  set system task-scheduler task updateBlacklist executable path /config/scripts/updateBlacklist.sh
   commit
   save
   exit

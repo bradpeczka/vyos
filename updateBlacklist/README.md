@@ -65,7 +65,7 @@ Installation
 Requirements
 ------------
 
-Tested on VyOS 1.1.7 (helium).
+Tested on VyOS 1.1.7 (helium). Should also work on the Brocade vRouter; *may* work on Ubiquiti EdgeOS but I suspect the performance will be less than optimal. My VyOS install is on an Intel Xeon E5-2670, and a normal update run completes in ~3 minutes with ~4500 addresses.
 
 Credits
 -------

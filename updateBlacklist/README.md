@@ -4,7 +4,7 @@ updateBlacklist
 This script will:
   * Grab the lastest [list of malicious IPs](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt) from the folks at [Emerging Threats (now Proofpoint)](http://www.emergingthreats.net). The list combines known malicious addresses from feeds provided by Spamhaus, abuse.ch and DShield.
   * Also grab the latest batch of malicious addresses from [Spamhaus EDROP](http://www.spamhaus.org/drop/edrop.txt) and the Blocklist.de [SSH](http://lists.blocklist.de/lists/ssh.txt) and [BruteForce](https://lists.blocklist.de/lists/bruteforcelogin.txt) lists.
-  * Parse them into two separate lists, one comprised of CIDRs and one comprised of hosts only
+  * Parse them into two separate lists, one comprised of subnets and one comprised of hosts only
   * Update two firewall groups with these addresses
   * Commit and save the configuration
   

@@ -50,10 +50,10 @@ Installation
   ```
   set firewall name WAN_IN rule 1010 action 'drop'
   set firewall name WAN_IN rule 1010 description 'Drop traffic from blacklisted networks'
-  set firewall name WAN_IN rule 1010 source group network-group 'ng-EmergingThreats'
+  set firewall name WAN_IN rule 1010 source group network-group 'ng-Blacklist'
   set firewall name WAN_IN rule 1011 action 'drop'
   set firewall name WAN_IN rule 1011 description 'Drop traffic from blacklisted addresses'
-  set firewall name WAN_IN rule 1011 source group address-group 'ag-EmergingThreats'
+  set firewall name WAN_IN rule 1011 source group address-group 'ag-Blacklist'
   commit
   save
   exit
